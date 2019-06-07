@@ -1,0 +1,25 @@
+html {
+   font-size: 62.5%;
+   box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+   box-sizing: inherit;
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   background: linear-gradient(to right bottom, #f1f1f1 20%, #e1e1e1 80%);
+   height: 100vh;
+   overflow: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+   body {
+      overflow: visible;
+   }
+}
